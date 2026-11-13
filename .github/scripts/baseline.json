@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-13T01:19:39.9843697-03:00",
+  "repos": {
+    "NuvioMobile": {
+      "baseCommit": "e9f136bc7cc1694be1413db0dba61292bd3eb047",
+      "upstreamRef": "upstream/cmp-rewrite",
+      "updatedAt": "2026-11-13T01:19:39.9875486-03:00",
+      "note": "Baseline fixada para o workflow single-repo"
+    }
+  }
+}
