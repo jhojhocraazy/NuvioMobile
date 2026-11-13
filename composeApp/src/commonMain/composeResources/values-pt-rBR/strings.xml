@@ -825,6 +825,14 @@
     <string name="settings_continue_watching_sort_mode_streaming_desc">Itens lançados primeiro, futuros por último</string>
     <string name="settings_continue_watching_sort_mode_split_upcoming">Linha separada para Em breve</string>
     <string name="settings_continue_watching_sort_mode_split_upcoming_desc">Move episódios ainda não exibidos para a linha Em breve.</string>
+    <string name="settings_continue_watching_click_action_title">Ao selecionar</string>
+    <string name="settings_continue_watching_click_action_description">O que abre ao selecionar um item de Continuar assistindo</string>
+    <string name="settings_continue_watching_click_action_stream">Abrir stream</string>
+    <string name="settings_continue_watching_click_action_stream_desc">Escolher uma fonte ou retomar a reprodução</string>
+    <string name="settings_continue_watching_click_action_details">Abrir detalhes</string>
+    <string name="settings_continue_watching_click_action_details_desc">Abrir a página de detalhes do título</string>
+    <string name="settings_continue_watching_click_action_details_upcoming">Detalhes apenas para Em breve</string>
+    <string name="settings_continue_watching_click_action_details_upcoming_desc">Abrir detalhes para episódios que ainda não foram ao ar; para os demais, a stream.</string>
     <string name="upcoming_section_title">Em breve</string>
     <string name="settings_continue_watching_section_card_style">ESTILO DO CARD DE PÔSTER</string>
     <string name="settings_continue_watching_section_on_launch">AO INICIAR</string>
@@ -1231,6 +1239,12 @@
     <string name="settings_playback_stream_selection_mode_regex_description">Reproduzir primeira fonte cujo texto corresponda ao seu padrão regex.</string>
     <string name="settings_playback_stream_timeout">Tempo limite para seleção de stream</string>
     <string name="settings_playback_stream_timeout_description">Tempo de espera para addons antes de selecionar.</string>
+    <string name="settings_playback_fallback_next_source">Usar a próxima fonte correspondente em caso de falha</string>
+    <string name="settings_playback_fallback_next_source_description">Se a fonte falhar ou não iniciar a tempo, tenta as próximas fontes correspondentes em silêncio.</string>
+    <string name="settings_playback_fallback_max_sources">Fontes para tentar em caso de falha</string>
+    <string name="settings_playback_fallback_startup_timeout">Tempo para uma fonte iniciar</string>
+    <string name="settings_playback_fallback_next_source_blocked_by_engine_switch">Desative a troca automática de motor em erro de reprodução para usar esta opção.</string>
+    <string name="player_error_source_startup_timeout">A fonte não iniciou dentro de %1$d segundos.</string>
     <!-- Espelho de settings_playback_minutes_before_end: o EN repete "Threshold Minutes" e a chave não tem consumidor; manter igual ao EN, não divergir. -->
     <string name="settings_playback_threshold_minutes">Minutos antes do fim</string>
     <string name="settings_playback_threshold_mode">Critério para próximo episódio</string>
@@ -2416,6 +2430,7 @@
     </plurals>
     <string name="settings_playback_auto_switch_engine_on_error">Trocar de motor automaticamente em erro de reprodução</string>
     <string name="settings_playback_auto_switch_engine_on_error_description">Troca para o outro motor de reprodução quando a reprodução falha, independentemente do motor selecionado.</string>
+    <string name="settings_playback_auto_switch_engine_blocked_by_fallback">Desative a alternativa para a próxima fonte correspondente para usar esta opção.</string>
     <string name="settings_playback_auto_skip_segments">Pular segmentos automaticamente</string>
     <string name="settings_playback_auto_skip_none">Nenhum</string>
     <string name="settings_playback_auto_skip_intro">Abertura</string>
