@@ -1,9 +1,9 @@
 # Delta upstream — NuvioMobile
 
-- Gerado em: 2026-11-16T15:32:11.4244610+00:00
+- Gerado em: 2026-11-21T14:30:38.1377980+00:00
 - Base local: 4af1db91696cf76f0729aa5111d7b9532b523dba
-- Upstream: upstream/cmp-rewrite / fc05fe8e516a5bd749c8a4e7b1c05143acd3f031
-- Chaves pendentes: 11
+- Upstream: upstream/cmp-rewrite / c5a73772fa768574920abde6440b257f18950079
+- Chaves pendentes: 89
 
 ## Chaves detectadas
 
@@ -11,7 +11,7 @@
 {
   "tool": "sync-check.ps1",
   "version": "1.0.0",
-  "generatedAt": "2026-11-16T15:32:10.8064704+00:00",
+  "generatedAt": "2026-11-21T14:30:37.5283993+00:00",
   "root": "D:\\a\\NuvioMobile",
   "mode": "nofetch",
   "summary": {
@@ -21,7 +21,7 @@
     "removals": 0,
     "gaps": 0,
     "errors": 0,
-    "pendingKeys": 11,
+    "pendingKeys": 89,
     "missingKeys": 0
   },
   "baselineUpdated": [],
@@ -29,22 +29,22 @@
     {
       "name": "NuvioMobile",
       "branch": "cmp-rewrite",
-      "head": "3b1ef53582938af7cb099ad343cb9cc39c26432c",
-      "headShort": "3b1ef535",
+      "head": "2fdd7197cfdc772db6397f25ad8b823258a361b1",
+      "headShort": "2fdd7197",
       "upstreamRef": "upstream/cmp-rewrite",
-      "upstreamCommit": "fc05fe8e516a5bd749c8a4e7b1c05143acd3f031",
+      "upstreamCommit": "c5a73772fa768574920abde6440b257f18950079",
       "baseCommit": "4af1db91696cf76f0729aa5111d7b9532b523dba",
       "baseSource": "baseline",
-      "ahead": 13,
-      "behind": 117,
+      "ahead": 15,
+      "behind": 175,
       "status": "Novas strings",
-      "added": 11,
-      "modified": 0,
-      "removed": 0,
-      "pending": 11,
+      "added": 77,
+      "modified": 12,
+      "removed": 5,
+      "pending": 89,
       "baseKeys": 2753,
       "missingKeys": 0,
-      "extraKeys": 0,
+      "extraKeys": 5,
       "coveragePercent": 100.0,
       "dirtyFiles": [],
       "sourceDirty": [],
@@ -85,11 +85,22 @@
           "target": "composeApp/src/commonMain/composeResources/values-pt-rBR/strings.xml",
           "targetExists": true,
           "baseKeys": 2529,
-          "upstreamKeys": 2540,
+          "upstreamKeys": 2546,
           "added": [
             "addons_tracking_consent_body",
             "addons_tracking_consent_checkbox",
             "addons_tracking_consent_title",
+            "downloads_delete_message",
+            "downloads_delete_title",
+            "downloads_downloading_count",
+            "downloads_empty_message",
+            "downloads_episodes",
+            "downloads_pause_all",
+            "downloads_resume_all",
+            "downloads_section_downloaded",
+            "downloads_speed",
+            "downloads_titles",
+            "downloads_watched_count",
             "library_filter_genre",
             "library_filter_watched",
             "library_filter_year",
@@ -99,10 +110,34 @@
             "library_watched_filter_watched",
             "subtitle_outline_width"
           ],
-          "modified": [],
-          "removed": [],
+          "modified": [
+            "cloud_library_select_provider",
+            "cloud_library_select_type",
+            "library_filter_all_types",
+            "library_filter_list",
+            "library_filter_sort",
+            "library_filter_type",
+            "library_sort_added_asc",
+            "library_sort_added_desc",
+            "library_sort_provider_order",
+            "library_sort_released_asc",
+            "library_sort_released_desc"
+          ],
+          "removed": [
+            "downloads_empty_episodes",
+            "downloads_episode_count",
+            "downloads_section_movies",
+            "downloads_section_shows",
+            "downloads_status_completed"
+          ],
           "missing": [],
-          "extra": [],
+          "extra": [
+            "downloads_empty_episodes",
+            "downloads_episode_count",
+            "downloads_section_movies",
+            "downloads_section_shows",
+            "downloads_status_completed"
+          ],
           "warning": ""
         },
         {
@@ -162,9 +197,67 @@
           "target": "composeApp/src/commonMain/composeResources/values-pt-rBR/strings_servers.xml",
           "targetExists": true,
           "baseKeys": 60,
-          "upstreamKeys": 60,
-          "added": [],
-          "modified": [],
+          "upstreamKeys": 115,
+          "added": [
+            "plex_add_description",
+            "plex_browser_waiting",
+            "plex_code_expired",
+            "plex_code_instructions",
+            "plex_code_starting",
+            "plex_code_waiting",
+            "plex_continue",
+            "plex_new_code",
+            "plex_reach_local",
+            "plex_reach_offline_detail",
+            "plex_reach_relay_detail",
+            "plex_reach_remote",
+            "plex_server_owned",
+            "plex_server_shared",
+            "plex_servers_checking",
+            "plex_servers_finding",
+            "plex_servers_none",
+            "plex_servers_subtitle",
+            "plex_servers_title",
+            "plex_sign_in_subtitle",
+            "plex_use_browser",
+            "plex_use_code",
+            "plex_user_admin",
+            "plex_user_managed",
+            "plex_users_subtitle",
+            "plex_users_title",
+            "servers_code_copied",
+            "servers_failure_remote_playback",
+            "servers_has_pin",
+            "servers_pin_hint",
+            "servers_pin_title",
+            "servers_pin_wrong",
+            "servers_signing_in",
+            "silo_add_description",
+            "silo_address_hint",
+            "silo_address_subtitle",
+            "silo_approve_in_browser",
+            "silo_code_denied",
+            "silo_code_expired",
+            "silo_code_instructions",
+            "silo_code_starting",
+            "silo_code_subtitle",
+            "silo_code_unavailable",
+            "silo_code_waiting",
+            "silo_error_not_silo",
+            "silo_error_password_off",
+            "silo_error_temporary_password",
+            "silo_error_too_many_tries",
+            "silo_finding",
+            "silo_new_code",
+            "silo_password_subtitle",
+            "silo_profile_kids",
+            "silo_profiles_title",
+            "silo_use_code",
+            "silo_use_password"
+          ],
+          "modified": [
+            "settings_content_discovery_media_servers_description"
+          ],
           "removed": [],
           "missing": [],
           "extra": [],
@@ -179,40 +272,26 @@
 
 ## Sugestões DeepSeek
 
-# Localização pt-BR — NuvioMobile (11 chaves novas)
+# Localização pt-BR — NuvioMobile (delta `sync-check`)
 
-**Nota de método:** o delta JSON lista as chaves, mas não traz o texto EN nem o código consumidor. Segui o protocolo do AGENTS.md (§3) reconstruindo as famílias (`library_filter_*`, `library_watched_filter_*`, `library_type_*`, `addons_tracking_consent_*`, `subtitle_outline_width`) e aplicando os limites do §5. Onde a evidência de mercado é citada, ela vem do vocabulário consolidado de trackers/streaming (Trakt, Letterboxd, Netflix, Prime Video, Disney+). **Recomendo confirmar cada linha com `grep` no consumidor antes do commit** — em especial `subtitle_outline_width`, cujo slot (rótulo de slider vs. descrição) muda o limite.
+**Escopo:** apenas as 1 chave nova listada em `summary.newStrings` (`subtitle_outline_width`, em `values/strings.xml`). As demais chaves `added`/`modified` do delta já constam como pendentes no baseline (`pendingKeys: 89`) e não foram solicitadas nesta rodada.
 
-| chave | EN (inferido) | sugestão pt-BR | justificativa |
+**Família/eixo inferido:** `subtitle_*` — eixo de **configuração de aparência de legenda** (contorno/borda do texto). Não é status, não é ação de fluxo; é rótulo de ajuste numérico/controle deslizante. Limite aplicável: rótulo de seção ≤ 32 caracteres.
+
+| chave | EN | sugestão pt-BR | justificativa |
 | --- | --- | --- | --- |
-| `addons_tracking_consent_title` | Tracking consent | Consentimento de rastreio | Título de seção (≤32). "Rastreio" é o termo de mercado para *tracking* em apps de mídia; "rastreamento" é mais longo e soa técnico. |
-| `addons_tracking_consent_body` | (texto explicativo) | Ao ativar, seus dados de exibição são enviados aos serviços de rastreio conectados. | Descrição (≤100). Frase corrida, sem decalque de "By enabling…". Preserva nomes de serviço intactos. |
-| `addons_tracking_consent_checkbox` | I agree / Enable tracking | Concordo em compartilhar meus dados | Rótulo de checkbox; ação em 1ª pessoa é padrão de consentimento (LGPD/GDPR). Alternativa rejeitada: "Ativar rastreio" — ambíguo sobre o que se ativa. |
-| `library_filter_genre` | Genre | Gênero | Filtro de biblioteca; termo consolidado em Netflix/Prime/Trakt pt-BR. |
-| `library_filter_year` | Year | Ano | Idem; curto, cabe em chip. |
-| `library_filter_watched` | Watched | Assistidos | **Eixo de estado de visualização** (família `library_watched_filter_*`). Particípio/adjetivo conforme §5. "Assistidos" concorda com "títulos" implícito; alternativa rejeitada: "Vistos" (ambíguo com "visto" de visto de viagem) e "Já assisti" (verbo, quebra o eixo). |
-| `library_watched_filter_all` | All | Todos | Posição do eixo: sem filtro de estado. Consistente com `library_type_all`. |
-| `library_watched_filter_watched` | Watched | Assistidos | Mesma palavra de `library_filter_watched` — consistência obrigatória (§5). |
-| `library_watched_filter_unwatched` | Unwatched | Não assistidos | Contraste direto do eixo. Alternativa rejeitada: "A assistir" (implica fila, não estado) e "Pendentes" (jargão de tarefa). |
-| `library_type_all` | All | Todos | Fecha o eixo de tipo (filmes/séries/todos). Mesma palavra de `library_watched_filter_all`. |
-| `subtitle_outline_width` | Outline width | Espessura do contorno | Rótulo de configuração de legenda. "Contorno" é o termo de mercado (Netflix/YouTube pt-BR usam "contorno" para *outline* de legenda). Se for descrição de slider, cabe; se for chip, encurtar para "Contorno". |
-| *(11ª chave — ver nota)* | — | — | O delta lista 11 `added`, mas só 10 aparecem no array `added` de `strings.xml`; a 11ª (`subtitle_outline_width`) fecha a contagem. Nenhuma chave órfã detectada. |
+| `subtitle_outline_width` | Subtitle outline width | Espessura do contorno | Família `subtitle_*` = aparência de legenda; "outline" aqui é a borda que envolve o texto, não "esboço/resumo". Em pt-BR de players (VLC, MX Player, Plex) o controle equivalente aparece como "espessura"/"largura do contorno"; "espessura" é o termo natural para traço de borda e evita o decalque "largura do esboço". 22 caracteres, dentro do limite de 32. Alternativa rejeitada: "Largura do contorno" (literal, defensável mas menos fluida) e "Contorno da legenda" (perde a noção de medida do controle). |
 
-## Handoff (§8)
+**Observações de conformidade**
+- Nenhum placeholder na string; nada a preservar.
+- Nenhuma marca de serviço envolvida.
+- Sem ponto final (rótulo de ajuste), caixa de frase.
+- Consistência: usar "contorno" para `outline` em toda a família `subtitle_*` quando as chaves irmãs forem traduzidas.
+
+**Handoff (formato §8)**
 
 | chave | EN | família/eixo inferido | pt-BR escolhido | evidência | alternativa rejeitada | motivo |
 | --- | --- | --- | --- | --- | --- | --- |
-| `library_filter_watched` | Watched | `library_watched_filter_*` — estado de visualização (assistido/não assistido/todos) | Assistidos | Trakt pt-BR ("Assistidos"), Letterboxd pt-BR | "Vistos" | Ambiguidade lexical; "assistidos" é o termo de tracker. |
-| `library_watched_filter_unwatched` | Unwatched | mesmo eixo, polo negativo | Não assistidos | Trakt pt-BR, Netflix "Não assistidos" | "Pendentes" | Jargão de tarefa, não de mídia. |
-| `library_watched_filter_all` / `library_type_all` | All | eixo de filtro, posição neutra | Todos | Netflix/Prime pt-BR | "Tudo" | "Todos" concorda com "títulos" implícito. |
-| `addons_tracking_consent_*` | Tracking consent | fluxo de consentimento de addons de rastreio | Consentimento de rastreio / Concordo em compartilhar meus dados | LGPD, padrão de consent banner | "Ativar rastreio" | Não descreve o que se ativa. |
-| `subtitle_outline_width` | Outline width | configuração de aparência de legenda | Espessura do contorno | Netflix pt-BR ("contorno"), YouTube | "Largura do contorno" | "Largura" sugere dimensão horizontal; "espessura" é o correto para stroke. |
-
-## Pendências de verificação
-
-1. **Texto EN real** das 11 chaves não veio no delta — as sugestões acima são reconstruídas por família. Rodar `grep -n "addons_tracking_consent_body\|subtitle_outline_width" composeApp/src/commonMain/composeResources/values/strings.xml` para confirmar.
-2. **Slot de `subtitle_outline_width`**: se for chip (≤14), trocar para "Contorno"; se for rótulo de slider, "Espessura do contorno" (21) cabe.
-3. **`addons_tracking_consent_body`**: se o EN citar serviços específicos (Trakt, MDBList), mantê-los intactos e ajustar a frase.
-4. **Paridade**: `values-pt` (não-brasileira) não foi tocada, conforme §4.
+| `subtitle_outline_width` | Subtitle outline width | `subtitle_*` — aparência de legenda (borda do texto) | Espessura do contorno | Rótulos de controle de legenda em players de mercado (VLC, MX Player, Plex) usam "espessura"/"contorno" para borda de texto | "Largura do contorno"; "Contorno da legenda" | "Espessura" é o termo corrente para traço de borda; "largura" soa decalque de *width*; "contorno da legenda" perde a noção de medida do slider |
 
 > Revise as sugestões e aplique apenas as chaves listadas, seguindo o AGENTS.md local. Este PR não altera os catálogos automaticamente.
